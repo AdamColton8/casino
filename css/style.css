@@ -1,0 +1,33 @@
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #4a4a4a; /* Old browsers */
+    background: -moz-linear-gradient(top, #4a4a4a 0%, #292929 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #4a4a4a 0%,#292929 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #4a4a4a 0%,#292929 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a4a4a', endColorstr='#292929',GradientType=0 ); /* IE6-9 */
+    
+}
+.left_block {
+    flex-basis: 25%;
+    margin-left: 175px;
+}
+.mid_block{
+    flex-basis: 75%;
+}
+.mid_block a{
+    color: #ffffff;
+}
+.mid_block a:hover{
+    color: #5bff99;
+}
+.container {
+    width: 1350px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
