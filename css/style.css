@@ -9,17 +9,38 @@
     background: -webkit-linear-gradient(top, #4a4a4a 0%,#292929 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, #4a4a4a 0%,#292929 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a4a4a', endColorstr='#292929',GradientType=0 ); /* IE6-9 */
-    
+    height: 72px;
 }
 .left_block {
-    flex-basis: 25%;
+    flex-basis: 18%;
     margin-left: 175px;
 }
 .mid_block{
     flex-basis: 75%;
+    position: relative;
 }
 .mid_block a{
     color: #ffffff;
+    margin-right: 10px;
+    border-right: 1px solid #202020;
+    padding-right: 15px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+.mid_block a span{
+    position: absolute;
+    top: 5px;
+    left: 33px;
+    color: #5bff99;
+}
+
+.top_text_right{
+    position: relative;
+    margin-left: 40px;
+}
+
+.top_text{
+    position: relative;
 }
 .mid_block a:hover{
     color: #5bff99;
@@ -27,7 +48,25 @@
 .container {
     width: 1350px;
     margin: 0 auto;
+    
+}
+main{
+    background-image: url(../img/bg.jpg);
+    background-position: center top;
+    background-size: 100% auto;
+    overflow: hidden;
 }
 a {
     text-decoration: none;
+}
+.form_login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #00000038;
+    align-items: flex-start;
+}
+.form_login p{
+    color: #ffffff;
+    font-size: 24px;
 }
