@@ -228,3 +228,121 @@ a {
 .margin_p_second {
     margin-top: 0px;
 }
+.cards {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:  60px;
+    padding-bottom:  60px;
+}
+.card {
+    flex-basis: 25%;
+    min-width: 225px;
+    padding-top: 118px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    background-color: rgba(255,255,255, .7);
+    box-shadow: 0px 0px 1px 1px #4c4c3e;
+}
+.card:hover{
+    box-shadow: 0px 0px 1px 1px #ffff00;
+}
+.card_football {
+    background-image: url(../img/football.jpg);
+}
+.card_mid_block{
+    background-color: #c1611a;
+    padding: 8px;
+    position: relative;
+}
+.card_text_mid {
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px 0.5px black;
+}
+.card_image_mid{
+    position: absolute;
+    top: -10px;
+    right: 10px;
+}
+.card_block{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 5px;
+}
+.card_text_bot {
+    font-size: 45px;
+    margin: 0;
+    font-weight: bold;
+}
+.card_text_bot_second {
+    text-align: center;
+}
+.card_text_bot_low{
+    text-align: center;
+    font-size: 11px;
+    margin-bottom: 8px;
+}
+.background_button {
+    background: linear-gradient(to top, #c56125, #fc792e);
+}
+.card_button_link {
+    display: block;
+    width: 80%;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 10px 0;
+    text-transform: uppercase;
+    
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+.card_button_link:hover{
+    background: linear-gradient(to top, #ff7b1d, #ff8f44);
+}
+.card_block_bot {
+    margin-bottom: 10px;
+}
+.card_football_second {
+    background-image: url(../img/football2.jpg);
+}
+.blue{
+    background-color: #1b72ff;
+}
+.background_button_football2 {
+    background: linear-gradient(to top, #144dac, #2371f5);
+}
+.background_button_football2:hover {
+    background: linear-gradient(to top, #146aff, #317dff);
+}
+.card_casino {
+    background-image: url(../img/casino.jpg);
+}
+.green {
+    background-color: #8cac29;
+}
+.background_button_casino {
+    background: linear-gradient(to top, #66840e, #87af13);
+}
+.background_button_casino:hover{
+    background: linear-gradient(to top, #94be15, #a2c92f);
+}
+.card_poker {
+    background-image: url(../img/poker.jpg);
+}
+.red {
+    background-color: #ea4229;
+}
+.background_button_poker{
+    background: linear-gradient(to top, #ad2a1a, #f9402a);
+}
+.background_button_poker:hover{
+    background: linear-gradient(to top, #fa3d27, #f55f4e);
+}
